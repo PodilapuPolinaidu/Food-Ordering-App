@@ -1,11 +1,11 @@
 {
-  "homepage": "https:///PodilapuPolinaidu.github.io/Food-Ordering-App",
+  "homepage": "https://PodilapuPolinaidu.github.io/Food-Ordering-App",
   "name": "food-ordering-app",
   "version": "1.0.0",
   "description": "This is food ordering app",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "start": "parcel index.html",
     "build": "parcel build index.html",
     "test": "jest"
